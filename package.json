@@ -1,0 +1,24 @@
+{
+  "name": "flashcard-quiz-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A beautiful flashcard quiz app with spaced repetition, custom decks, and score tracking",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.3.4"
+  }
+}
